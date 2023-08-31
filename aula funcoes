@@ -1,0 +1,99 @@
+/*
+// EXERCICIO 1 A)
+// O console vai imprimir 10 e 50, resultado da multiplicacao de 2 e 10
+
+// EXERCICIO 1 B)
+// Nao apareceria nada
+
+// EXERCICIO 2 A)
+
+let textoDoUsuario = prompt("Insira um texto");
+const outraFuncao = function(texto) {
+return texto.toLowerCase().includes("cenoura")
+}
+const resposta = outraFuncao(textoDoUsuario)
+console.log(resposta)
+
+//Ela pega um texto inserido pelo usuario e identifica se a palavra "cenoura" esta presente
+
+// EXERCICIO 2 B)
+// true
+// true
+// true
+
+// EXERCICIO 3 A)
+
+function frase() {
+    const informacoes = ("Eu sou teo, tenho 15 anos, moro em São Leopoldo e sou estudante.")
+    return informacoes
+    
+}
+const fraseFinal = frase()
+console.log (fraseFinal)
+
+// EXERCICIO 3 B)
+function frase(nome, idade, cidade, profissao) {
+    const fraseFinal = (`eu sou ${nome} tenho ${idade} moro em ${cidade} e quero ser ${profissao}`)
+    return fraseFinal
+    
+}
+
+
+console.log(frase("teo", 15, "Sao Leopoldo", "engenheiro")) 
+
+
+// exercicio 4 A)
+ numeros (numero1, numero2) {
+     return numero1 + numero2 
+}
+console.log (numeros(8, 9))
+
+
+// exercicio 4 B)
+
+function numeros (numero1, numero2) {
+    return Boolean (numero1 >= numero2)
+    
+}
+console.log (numeros(11, 9))
+
+// exercicio 4 C)
+function numeros (numero1) {
+    return Boolean (numero1 % 2 === 0)
+    
+}
+console.log (numeros(24))
+
+
+// EXERCICIO 4 D)
+function mensagem (frase) {
+    return(frase.length() + " " + frase,toUpperCase())
+    
+}
+let msgm = prompt ("digite uma frase")
+console.log (mensagem(msgm))
+
+// EXERCICIO 5
+function soma (numero1, numero2) {
+    return numero1 + numero2
+}
+
+function subtracao (numero1, numero2) {
+     return numero1 - numero2
+}
+function multiplicacao (numero1, numero2) {
+    return numero1 * numero2
+}
+
+function divisao (numero1, numero2) {
+    return numero1 / numero2
+}
+let nmr = Number (prompt ("digite um numero"))
+let nmr2 = Number (prompt ("digite outro numero"))
+
+console.log ("numeros inseridos:", nmr, "e", nmr2 )
+console.log ("soma:", soma(nmr, nmr2))
+console.log ("diferenca:", subtracao(nmr, nmr2))
+console.log ("multiplicacao:", multiplicacao(nmr, nmr2))
+console.log ("divisao:", divisao(nmr, nmr2))
+*/
